@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
-    let timeLimit = 10; // Thời gian là 50 phút
+    let timeLimit = 3003000; // Thời gian là 50 phút
 
     function displayQuestion() {
         const currentQuestion = examData[currentQuestionIndex];
